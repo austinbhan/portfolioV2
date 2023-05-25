@@ -1,14 +1,15 @@
 import {
   BrowserRouter as Router,
 } from 'react-router-dom';
-
 import styles from './app.css';
+
+import Title from './Components/Title';
 
 export default function App() {
   return(
     <div className={styles.App}>
       <Router>
-        <h1>Austin Han</h1>
+        <Title />
         <h1>About Me</h1>
         <h1>Tech Stack</h1>
         <h1>Projects</h1>
