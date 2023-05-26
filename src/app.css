@@ -3,3 +3,23 @@
     flex-direction: column;
     align-items: center;
 }
+
+.headerPage {
+    background-color: pink;
+}
+
+.aboutMe {
+    background-color: salmon;
+}
+
+.techStack {
+    background-color: skyblue;
+}
+
+.projects {
+    background-color: lightgreen;
+}
+
+.contactMe {
+    background-color: beige;
+}
