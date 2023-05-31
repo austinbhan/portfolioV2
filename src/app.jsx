@@ -11,14 +11,17 @@ import ContactMe from './Components/ContactMe';
 
 export default function App() {
   return(
-    <div className={styles.App}>
-      <Router>
-        <Header />
-        <AboutMe />
-        <TechStack />
-        <Projects />
-        <ContactMe />
-      </Router>
+    <div className={styles.container}>
+
+      <div className={styles.App}>
+        <Router>
+          <Header />
+          <AboutMe />
+          <TechStack />
+          <Projects />
+          <ContactMe />
+        </Router>
+      </div>
     </div>
   );
 }
