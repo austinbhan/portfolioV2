@@ -2,7 +2,7 @@ import styles from '../app.css';
 
 export default function AboutMe() {
   return (
-    <div className={styles.aboutMe}>
+    <div className={styles.gridThree}>
       <h1>About Me</h1>
       <h3>This is the about me section</h3>
       <p>Lorem ipsum dolor sit amet, 

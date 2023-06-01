@@ -10,40 +10,28 @@
     align-items: center;
 }
 
-.headerPage {
+
+/* Header */
+.gridOne { 
     background-color: pink;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
-.headerElementOne {
-    background-color: lightgoldenrodyellow;
+/* About Me */
+.gridThree {
+    background-color: lightblue;
 }
 
-.headerElementTwo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: lightseagreen;
+/* Projects */
+.gridFive {
+    background-color: aquamarine;
 }
 
-.aboutMe {
-    background-color: salmon;
-    
+/* Tech Stack */
+.gridSeven {
+    background-color: lightsalmon;
 }
 
-.techStack {
-    background-color: skyblue;
-}
-
-.projects {
-    background-color: lightgreen;
-}
-
-.profilePicture {
-    width: 100px;
-}
-
-.contactMe {
-    background-color: beige;
+/* Contact Me */
+.gridNine {
+    background-color: lightgray;
 }

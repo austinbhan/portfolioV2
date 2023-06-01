@@ -5,7 +5,7 @@ import styles from './app.css';
 
 import Header from './Components/Header';
 import AboutMe from './Components/AboutMe';
-import TechStack from './Components/TechStack/TechStack';
+import TechStack from './Components/TechStack';
 import Projects from './Components/Projects';
 import ContactMe from './Components/ContactMe';
 
@@ -24,3 +24,5 @@ export default function App() {
     </div>
   );
 }
+
+// FOR TOMORROW: CREATE GRID ALTERNATING SIDES

@@ -2,7 +2,7 @@ import styles from '../app.css';
 
 export default function ContactMe() {
   return (
-    <div className={styles.contactMe}>
+    <div className={styles.gridNine}>
       <h1>Contact Me</h1>
       <h3>Here is my contact information</h3>
       <ul>

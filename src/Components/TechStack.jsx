@@ -1,8 +1,8 @@
-import styles from '../../app.css';
+import styles from '../app.css';
 
 export default function TechStack() {
   return (
-    <div className={styles.techStack}>
+    <div className={styles.gridSeven}>
       <h1>Tech Stack</h1>
       <h3>Languages</h3>
       <ul>
