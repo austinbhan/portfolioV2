@@ -10,10 +10,20 @@
     align-items: center;
 }
 
+/* Images */
+.image {
+    width: 200px;
+    height: 200px;
+}
 
 /* Header */
 .gridOne { 
-    background-color: pink;
+    background-color: lightyellow
+}
+
+/* Madame Butterfly */
+.gridTwo {
+    background-color: lightpink;
 }
 
 /* About Me */
@@ -21,14 +31,29 @@
     background-color: lightblue;
 }
 
+/* Drinks */
+.gridFour {
+    background-color: bisque;
+}
+
 /* Projects */
 .gridFive {
     background-color: aquamarine;
 }
 
+/* Nap */
+.gridSix {
+    background-color: azure;
+}
+
 /* Tech Stack */
 .gridSeven {
     background-color: lightsalmon;
+}
+
+/* Birthday */
+.gridEight {
+    background-color: blanchedalmond;
 }
 
 /* Contact Me */

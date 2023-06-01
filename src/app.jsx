@@ -9,15 +9,24 @@ import TechStack from './Components/TechStack';
 import Projects from './Components/Projects';
 import ContactMe from './Components/ContactMe';
 
+import ImageOne from './Images/ImageOne';
+import ImageTwo from './Images/ImageTwo';
+import ImageThree from './Images/ImageThree';
+import ImageFour from './Images/ImageFour';
+
 export default function App() {
   return(
     <div className={styles.container}>
       <div className={styles.App}>
         <Router>
           <Header />
+          <ImageOne />
           <AboutMe />
+          <ImageTwo />
           <Projects />
+          <ImageThree />
           <TechStack />
+          <ImageFour />
           <ContactMe />
         </Router>
       </div>
@@ -25,4 +34,4 @@ export default function App() {
   );
 }
 
-// FOR TOMORROW: CREATE GRID ALTERNATING SIDES
+// FOR NEXT COMMIT: FORMAT INTO GRID
